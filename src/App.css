@@ -1,8 +1,8 @@
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: "Reem Kufi", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reem Kufi", sans-serif !important;
 }
 
 img{
@@ -14,7 +14,7 @@ img{
   min-height: 100vh;
   width: 85vw;
   max-width: 1900px;
-  margin: 8rem auto;
+  margin: 1rem auto;
 }
 
 body{
@@ -23,3 +23,35 @@ body{
   background-color: #ffeaea;
 }
 
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 90px;
+}
+
+.nav-logo-container{
+  max-width: 120px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-menu-container{
+  display: flex; /* Flex para alinhar os itens horizontalmente */
+  align-items: center;
+}
+
+.nav-menu-container a{
+  margin-right: 2rem; /* Ajuste do espaçamento entre os itens */
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem; 
+  font-weight: 600;
+}
+
+.navbar-cart-icon {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
